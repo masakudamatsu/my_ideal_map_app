@@ -1,0 +1,19 @@
+{
+  "name": "my_ideal_map_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masakudamatsu/my_ideal_map_app.git"
+  },
+  "author": "Masa Kudamatsu <masakudamatsu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masakudamatsu/my_ideal_map_app/issues"
+  },
+  "homepage": "https://github.com/masakudamatsu/my_ideal_map_app#readme"
+}
