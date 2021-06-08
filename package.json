@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/masakudamatsu/my_ideal_map_app/issues"
   },
-  "homepage": "https://github.com/masakudamatsu/my_ideal_map_app#readme"
+  "homepage": "https://github.com/masakudamatsu/my_ideal_map_app#readme",
+  "devDependencies": {
+    "commitizen": "4.2.4",
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
 }
