@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\"",
     "lint": "eslint --ignore-path .gitignore .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,6 +26,7 @@
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "7.28.0",
+    "eslint-config-prettier": "8.3.0",
     "eslint-config-react-app": "6.0.0",
     "eslint-plugin-flowtype": "5.7.2",
     "eslint-plugin-import": "2.23.4",
@@ -33,7 +35,8 @@
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-react": "7.24.0",
     "eslint-plugin-react-hooks": "4.2.0",
-    "eslint-plugin-testing-library": "4.6.0"
+    "eslint-plugin-testing-library": "4.6.0",
+    "prettier": "2.3.1"
   },
   "config": {
     "commitizen": {
