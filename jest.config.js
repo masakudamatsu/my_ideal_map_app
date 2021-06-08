@@ -7,7 +7,12 @@ module.exports = {
     __dirname,
     path.join(__dirname, '../src'),
   ],
-  setupFilesAfterEnv: ['jest-styled-components', 'jest-axe/extend-expect'],
+  setupFilesAfterEnv: [
+    'jest-styled-components',
+    'jest-axe/extend-expect',
+    '@testing-library/jest-dom/extend-expect',
+  ],
+  testEnvironment: 'jsdom',
   testPathIgnorePatterns: [
     '<rootDir>/.next/',
     '<rootDir>/cypress/',
