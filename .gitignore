@@ -5,3 +5,12 @@ node_modules/
 .next/
 
 .env.local
+
+cypress/videos
+cypress/screenshots
+
+.nyc_output/
+.nyc_tempdir/
+coverage/
+coverage-cypress/
+coverage-jest/
