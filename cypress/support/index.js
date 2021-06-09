@@ -13,6 +13,9 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 
+// Cypress Code Coverage plugin
+import '@cypress/code-coverage/support';
+
 // Cypress Testing Library
 import '@testing-library/cypress/add-commands';
 

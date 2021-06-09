@@ -8,3 +8,9 @@ node_modules/
 
 cypress/videos
 cypress/screenshots
+
+.nyc_output/
+.nyc_tempdir/
+coverage/
+coverage-cypress/
+coverage-jest/
